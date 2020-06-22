@@ -12,6 +12,7 @@
 		88FD3CE9218727480044839E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FD3CE7218727480044839E /* Main.storyboard */; };
 		88FD3CEB218727480044839E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88FD3CEA218727480044839E /* Assets.xcassets */; };
 		88FD3CEE218727480044839E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88FD3CEC218727480044839E /* LaunchScreen.storyboard */; };
+		88FD3CF821872DBC0044839E /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 88FD3CF721872DBC0044839E /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		88FD3CEA218727480044839E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88FD3CED218727480044839E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88FD3CEF218727480044839E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88FD3CF721872DBC0044839E /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				88FD3CE7218727480044839E /* Main.storyboard */,
 				88FD3CEA218727480044839E /* Assets.xcassets */,
 				88FD3CEC218727480044839E /* LaunchScreen.storyboard */,
+				88FD3CF721872DBC0044839E /* GoogLeNetPlaces.mlmodel */,
 				88FD3CEF218727480044839E /* Info.plist */,
 			);
 			path = "Intelligent Image";
@@ -137,6 +140,7 @@
 			files = (
 				88FD3CE6218727480044839E /* ViewController.swift in Sources */,
 				88FD3CE4218727480044839E /* AppDelegate.swift in Sources */,
+				88FD3CF821872DBC0044839E /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Intelligent Image/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Intelligent Image/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
